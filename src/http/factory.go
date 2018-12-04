@@ -7,3 +7,9 @@ type Exports struct {
 
 //PublicInstances holds all instances of http client ready to be used.
 var PublicInstances *Exports
+
+func init() {
+	PublicInstances = &Exports{
+		Client: newClient(),
+	}
+}

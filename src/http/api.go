@@ -5,7 +5,7 @@ type Client interface {
 	Get(url string) (string, error)
 }
 
-//NewClient provides the factory method for obtaining a http client instance.
-func NewClient() Client {
+//newClient provides the factory method for obtaining a http client instance.
+func newClient() Client {
 	return &asyncClient{}
 }
