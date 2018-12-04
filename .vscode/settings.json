@@ -1,0 +1,11 @@
+{
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "on",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "files.insertFinalNewline": true,
+    "go.gopath": "${workspaceFolder}",
+    "go.gotoSymbol.includeImports": true
+}

@@ -4,6 +4,10 @@
 *.dll
 *.so
 *.dylib
+bin
+pkg
+src/github.com
+src/golang.org
 
 # Test binary, build with `go test -c`
 *.test
