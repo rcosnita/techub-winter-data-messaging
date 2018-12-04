@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	client := http.NewClient()
+	client := http.PublicInstances.Client
 	result, err := client.Get("https://www.google.ro")
 	if err != nil {
 		panic(err)
